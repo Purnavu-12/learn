@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional custom tweaks */
+:root {
+  --bg: #f7f7fb;
+}
+body {
+  background-color: var(--bg);
+}
